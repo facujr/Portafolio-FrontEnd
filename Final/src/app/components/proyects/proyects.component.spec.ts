@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RedSocialComponent } from './red-social.component';
+import { ProyectsComponent } from './proyects.component';
 
-describe('RedSocialComponent', () => {
-  let component: RedSocialComponent;
-  let fixture: ComponentFixture<RedSocialComponent>;
+describe('ProyectsComponent', () => {
+  let component: ProyectsComponent;
+  let fixture: ComponentFixture<ProyectsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RedSocialComponent ]
+      declarations: [ ProyectsComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(RedSocialComponent);
+    fixture = TestBed.createComponent(ProyectsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
